@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FluxCash</title>
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&family=Inter:wght@100;200;300;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <div class="container"> 
+        <div class="cadastro d-flex justify-content-center align-items-center">
+            <div class="apresentacao-logo text-center">
+                <img src="./assets/images/logo-FluxCash.png" alt="Logo fluxCash"> 
+                <p>Gerencie suas finanças com precisão</p>
+            </div>
+            <div class="container-cadastro bg-gradient">
+                <h2 class="text-center mt-4">Cadastro</h2>
+                <form name="dados" id="dados" method="post" action="#" class="box-form p-4">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">
+                            <span class="icon-background">
+                                <i class="fa-solid fa-user icon"></i>
+                            </span>
+                        </label>
+                        <input type="text" placeholder="Nome" id="nome" name="nome" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">
+                            <span class="icon-background">
+                                <i class="fa-regular fa-user icon"></i>
+                            </span>
+                        </label>
+                        <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">
+                            <span class="icon-background">
+                                <i class="fas fa-envelope icon"></i>
+                            </span>
+                        </label>
+                        <input type="email" placeholder="Email" id="email" name="email" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">
+                            <span class="icon-background">
+                                <i class="fa-solid fa-phone icon"></i>
+                            </span>
+                        </label>
+                        <input type="tel" id="celular" name="celular" class="form-control" placeholder="Celular">
+                    </div>  
+                    <div class="mb-3">
+                        <label for="date" class="form-label-date"> 
+                            <span class="icon-background">
+                                <i class="fa-sharp fa-solid fa-calendar-days icon"></i>
+                            </span>
+                        </label>
+                        <input type="date"  placeholder="DD/MM/AAAA" id="data" name="date" class="form-control"  >
+                        <h5 id="data">Selecione a data do seu nascimento</h5>
+                    </div>
+                    <div class="mb-3">
+                        
+                        <label for="digite-senha" class="form-label">
+                            <span class="icon-background">
+                                <i class="fas fa-lock icon"></i>
+                            </span>
+                        </label>
+                        <input type="password" id="senha" name="senha" class="form-control" required minlength="5" maxlength="15" placeholder="Senha">
+                    </div>
+                    <div class="mb-3">
+                        <label for="confsenha" class="form-label">
+                            <span class="icon-background">
+                                <i class="fas fa-lock icon"></i>
+                            </span>
+                        </label>
+                        <input type="password" id="confirmasenha" name="confirmasenha" class="form-control" required minlength="5" maxlength="15" placeholder="Confirmar senha">
+                    </div>
+                    <div class="box-button mb-3 text-center">   
+                        <a href="./login.html" class="btn btn-primary form-btn">Criar</a>
+                    </div>
+                    <div class="login">
+                        <a href="./login.html" class="entrar-conta"> Já tem conta? <spanc class="entrar"> Entrar </spanc></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="versao text-end text-muted mt-2"> Versão 0.2 - RM99546</div>
+        <!-- Scripts para os arquivos JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

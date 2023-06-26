@@ -1,0 +1,176 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&family=Inter:wght@100;200;300;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* Reset de estilos para elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais do corpo */
+body {
+    background-color: #010A43;
+}
+
+/* Estilos do formulário de login */
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 0.92em;
+    font-family: 'Amiko', sans-serif;
+}
+
+.container-login {
+    background: linear-gradient(to bottom, #06091F, #111C5C, #2B398E, #6976C2);
+    border-radius: 35px 35px 0 0;
+    width: 30em;
+    height: 34em;
+    margin: 20px;
+}
+
+h2 {
+    color: #180202;
+    font-size: 1.9em;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.versao {
+    color: #99999c;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: flex-end;
+    align-items: flex-end;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+}
+
+.icon-background {
+    background-color: #574f6f59;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 0;
+}
+
+.icon {
+    color: #323240;
+}
+
+.box-form {
+    margin: 1.9rem;
+    margin-top: 0.1rem;
+}
+
+/* Estilos do input */
+input {
+    background-color: #B2ABC5;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #B2ABC5 inset !important;
+}
+
+.form-label {
+    margin-top: 3px;
+    font-family: 'Amiko', sans-serif;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 55px;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.box-button,
+.rest-senha,
+.criar-conta {
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+}
+
+.form-btn {
+    width: 50%;
+    text-decoration: none;
+    padding: 0.60rem;
+    display: flex;
+    justify-content: center;
+    background-color: #2300848c;
+    color: #fff;
+    border: 0.5px solid #ffffff;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    border-radius: 0.90rem;
+    cursor: pointer;
+    animation: pulsar 0.7s infinite alternate;
+}
+
+.form-btn:hover {
+    background-color: #230084d5;
+}
+
+.rest-senha {
+    color: #fff;
+    font-family: 'Amiko', sans-serif;
+}
+
+.criar-conta {
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+    color: #fff;
+}
+
+.criar {
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .conteiner-login {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Animação do botão */
+@keyframes pulsar {
+    100% {
+        box-shadow: 0 0 5px 1px #ffffffec;
+    }
+}
+
+

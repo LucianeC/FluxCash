@@ -1,0 +1,185 @@
+/* Importação das fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&family=Inter:wght@100;200;300;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo do documento */
+body {
+    background-color: #010A43;
+}
+
+/* Estilos para o formulário de cadastro */
+.cadastro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+}
+
+h5 {
+    
+    color:#0f0f14;
+    font-size: 0.92em;
+    font-family: 'Amiko', sans-serif;
+
+}
+
+img {
+    
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 0.92em;
+    font-family: 'Amiko', sans-serif;
+}
+
+.container-cadastro {
+    background: linear-gradient(to bottom, #06091F, #111C5C, #2B398E, #6976C2);
+    border-radius: 35px 35px 0 0;
+    width: 40em;
+    height: 53em;
+    margin: 20px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.9em;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    padding-top: 1.2rem;
+    padding-left: 2rem;
+}
+
+.versao {
+    color: #99999c;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: flex-end;
+    align-items: flex-end;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+}
+
+.icon-background {
+    background-color: #574f6f59;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    top: 40px;
+    left: 0;
+}
+
+
+
+.icon {
+    color: #31313f;
+}
+
+.box-form {
+    margin: 1.9rem;
+    padding: 0px 2px 2px 4px;
+}
+
+input {
+    background-color: #B2ABC5;
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #B2ABC5 inset !important;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0;
+    padding-left: 55px;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.box-button,
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.box-button {
+    margin-top: 49px;
+}
+
+.form-btn {
+    width: 50%;
+    text-decoration: none;
+    padding: 0.60rem;
+    display: flex;
+    justify-content: center;
+    background-color: #2300845b;
+    color: #fff;
+    border: 0.5px solid #ffffff;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    border-radius: 0.90rem;
+    cursor: pointer;
+    animation: pulsar 0.7s infinite alternate;
+}
+
+.form-btn:hover {
+    background-color: #230084d5;
+}
+
+.rest-senha {
+    color: #fff;
+    font-family: 'Amiko', sans-serif;
+}
+
+.entrar-conta {
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+    color: #fff;
+}
+
+.entrar {
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container-cadastro {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Animação do botão */
+@keyframes pulsar {
+    100% {
+        box-shadow: 0 0 5px 1px #ffffffe3;
+    }
+}
+
